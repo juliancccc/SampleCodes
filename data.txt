@@ -1,4 +1,0 @@
-https://blog.johnsonlu.org/java讀取與寫入檔案/
-julian,台北市,23000,男
-amy,基隆市,50000,女
-edward,新北市,33000,男
