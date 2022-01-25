@@ -2,6 +2,7 @@ DROP FUNCTION IF EXISTS GetStudentName;
 DELIMITER $$
 CREATE FUNCTION GetStudentName(student_id int)
 RETURNS VARCHAR(16)
+READS SQL DATA
 BEGIN
 	DECLARE ename, student_name VARCHAR(16);
 	SELECT name INTO ename
